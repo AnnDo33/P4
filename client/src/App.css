@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #eee;
+  color: #9c1717;
   margin: 0;
 }
 
@@ -32,7 +32,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #eee;
+  color: #300a49;
   display: flex;
   gap: 5px;
   justify-content: end;
