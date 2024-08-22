@@ -10,6 +10,10 @@ const itemsRouter = require("./items/router");
 
 router.use("/items", itemsRouter);
 
+const servicesActions = require("../../controllers/servicesActions");
+
+router.get("/services", servicesActions.browse);
+
 /* ************************************************************************* */
 
 module.exports = router;
